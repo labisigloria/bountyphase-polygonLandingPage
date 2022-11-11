@@ -429,10 +429,7 @@ img{
   }
   
   /* Nkejah Ruth's CSS */
-  .h2style{
-    text-align: center;
-    color: rgb(12, 12, 12);
-}
+  sss
 .grid-container {
     display: inline-grid;
     grid-template-columns: auto auto;
@@ -441,3 +438,107 @@ text-align: center;
 p{
   text-align: center;
 }
+
+/* The beginning of the ETH accessibility section number 3  */
+.polygon-makes{
+  text-align: center;
+  color: rgba(41,41,52,var);
+}
+
+.eth-compact{
+  color: black;
+  
+}
+
+.eth-img{
+  max-width: 20%;
+  
+}
+
+.polygon-accessibility {
+    display: flex;
+    justify-content:space-around;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+  }
+
+  .eth-compactibility{
+    flex:1;
+    height: 400px;
+    text-align: center;
+    
+  }
+
+  .eth-scalability{
+    flex:1;
+    text-align: center;
+  }
+
+  .eth-security{
+    flex:1;
+    text-align: center;
+  }
+
+  .dev-experience{
+    flex:1;
+    text-align: center;
+  }
+
+
+
+
+  .smart-contract-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #193d45;
+    border-radius: 0.75rem;
+    
+  }
+
+  .smart-contract-box-1{
+    
+    color: white;
+    
+  } 
+  
+  .smart-contract{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+ 
+  .carbon{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+
+  .smart-contract-btn {
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    width: 150px;
+    cursor: pointer;
+  }
+  
+ 
+  /* @media  min-width: 700px { 
+
+  
+}
+
+@media min-width: 992px {
+
+}
+
+@media min-width: 1392px {
+
+}  */
+
+/* The end of the ETH accessibility section number 3  */

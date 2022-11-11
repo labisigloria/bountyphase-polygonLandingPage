@@ -427,3 +427,17 @@ img{
     /*end of section-1*/
     
   }
+  
+  /* Nkejah Ruth's CSS */
+  .h2style{
+    text-align: center;
+    color: rgb(12, 12, 12);
+}
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto;
+text-align: center;
+}
+p{
+  text-align: center;
+}

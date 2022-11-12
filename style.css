@@ -429,17 +429,142 @@ img{
   }
   
   /* Nkejah Ruth's CSS */
-  sss
-.grid-container {
+  .h2style3 {
+    text-align: center;
+  }
+  .live-btn {
+    color:  rgba(123, 63, 228,1);
+    border-radius: 0%;
+  background-color:rgb(233, 223, 247);
+border: none;
+font-size: 15px;
+padding: 5px 10px 5px 10px ;
+  }
+  .publictnetbtn{
+    color:  rgb(233, 223, 247);
+    border-radius: 0%;
+  background-color:  rgba(123, 63, 228,1);
+border: none;
+font-size: 15px;
+padding: 5px 10px 5px 10px ;
+  }
+  .devlopbtn{
+    color:  rgb(216, 72, 6);
+    border-radius: 0%;
+  background-color:rgb(241, 218, 211);
+border: none;
+font-size: 15px;
+padding: 5px 10px 5px 10px ; 
+  }
+  .live4btn{
+    color:  rgba(123, 63, 228,1);
+    border-radius: 0%;
+  background-color:rgb(233, 223, 247);
+border: none;
+font-size: 15px;
+padding: 5px 10px 5px 10px ;
+  }
+  .mainnetbetabtn{
+    color:  rgb(233, 223, 247);
+    border-radius: 0%;
+  background-color:  rgba(123, 63, 228,1);
+border: none;
+font-size: 15px;
+padding: 5px 10px 5px 10px ;
+  }
+  .dev6btn{
+    color:  rgb(216, 72, 6);
+    border-radius: 0%;
+  background-color:rgb(241, 218, 211);
+border: none;
+font-size: 15px;
+padding: 5px 10px 5px 10px ; 
+  }
+  .dev7btn{
+    color:  rgb(216, 72, 6);
+    border-radius: 0%;
+  background-color:rgb(241, 218, 211);
+border: none;
+font-size: 15px;
+padding: 5px 10px 5px 10px ; 
+  }
+  .live8btn{
+    color:  rgba(123, 63, 228,1);
+    border-radius: 0%;
+  background-color:rgb(233, 223, 247);
+border: none;
+font-size: 15px;
+padding: 5px 10px 5px 10px ;
+  }
+
+.grid-container1 {
     display: inline-grid;
     grid-template-columns: auto auto;
-text-align: center;
+text-align: left;
+padding: 20px;
 }
 p{
   text-align: center;
+  
+}
+.flexone {
+  border: 0.5px solid rgb(190, 200, 211);
+  padding: 20px;
+  line-height: 1.5em;
+  font-size: 15px;
+}
+.flextwo {
+  border: 0.5px solid rgb(190, 200, 211);
+  padding: 20px;
+  line-height: 1.5em;
+  font-size: 15px;
+}
+.flexthree {
+  border: 0.5px solid rgb(190, 200, 211);
+  padding: 20px;
+  line-height: 1.5em;
+  font-size: 15px;
+}
+.flexfour {
+  border: 0.5px solid rgb(190, 200, 211);
+  padding: 20px;
+  line-height: 1.5em;
+  font-size: 15px;
+}
+.flexfive {
+  border: 0.5px solid rgb(190, 200, 211);
+  padding: 20px;
+  line-height: 1.5em;
+  font-size: 15px;
+}
+.flexsix {
+  border: 0.5px solid rgb(190, 200, 211);
+  padding: 20px;
+  line-height: 1.5em;
+  font-size: 15px;
+}
+.flexseven {
+  border: 0.5px solid rgb(190, 200, 211);
+  padding: 20px;
+  line-height: 1.5em;
+  font-size: 15px;
+}
+.flexeight {
+  border: 0.5px solid rgb(190, 200, 211);
+  padding: 20px;
+  line-height: 1.5em;
+  font-size: 15px;
+}
+.flexnine {
+  text-align: center;
+  border: 0.5px solid rgb(190, 200, 211);
+  padding: 20px;
+  line-height: 1.5em;
+  color: rgb(153, 149, 149);
+  font-size: 15px;
 }
 
-
+/* This is the end of Nkejah Ruth's CSS */
 =======
 /* The beginning of the ETH accessibility section number 3  */
 .polygon-makes{

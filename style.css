@@ -9,12 +9,20 @@
 
 
 body {
+  font-family: system-ui, -apple-system, /* Firefox supports this but not yet `system-ui` */ 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+  height: 100vh;
+  width: 100%;
+  background: #f7f8f9;
+  /* align-items: center; */
+  margin: 0 auto;
+  overflow-x: hidden !important;
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial,
   sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
   min-height: 100vh;
   width: 100vw;
   background: #f7f8f9;
   
+
 }
 
 /*beginning of navigation style*/
@@ -30,7 +38,21 @@ header{
   justify-content: center;
 }
 .nav-logo{
-  padding-left:5rem ;
+  margin-left: 70px;
+  margin-right: 40px;
+}
+.nav-bar {
+  width: 100% !important;
+  height: 17%;
+  background-color:#fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  position: fixed;
+  /* transition: 0.3s; */
+  padding-top:15px ;
 
 }
 .nav-bar {
@@ -224,8 +246,8 @@ header{
   font-weight: 900;
   line-height: 1.2;
   text-align: center;
-  /* width: 600px;
-    margin: auto; */
+  width: 700px; 
+  margin: auto; 
 }
 
 .carousel-cont {
@@ -246,6 +268,10 @@ header{
   align-items: flex-start !important;
   justify-content: space-around !important;
   max-width: fit-content !important;
+}
+
+.li-class{
+  color: black !important;
 }
 
 .a-class {
@@ -348,12 +374,12 @@ span {
   box-shadow: 1px 1px 10px rgb(58, 54, 54) !important;
   margin-bottom: 100px !important;
   margin-top: 50px !important;
-  position: relative !important;
   display: flex !important;
   overflow: hidden !important;
   user-select: none !important;
   gap: 1rem !important;
   font-family: inherit !important;
+  /* height: 200px; */
 }
 .myDIV {
   background-color: #ffffff;
@@ -439,7 +465,9 @@ li{
     display: flex;
     width: 90%;
     margin: 0 auto; 
-    border-radius: 10px; padding: 20px; 
+    border-radius: 10px;
+     padding: 20px; 
+     margin-bottom: 100px !important;
 }
 ul>li ,.purple-container>section>div>h2, .p-tag{
     color: whitesmoke;
@@ -1081,13 +1109,12 @@ a{
 
 ul{
   list-style-type: none;
-  margin: 40px;
-  padding: 40px;
+ 
 }
 
 li{
   list-style-type: none;
-  padding: 10px;
+  /* padding: 10px; */
 }
 
 h5{
@@ -1114,3 +1141,11 @@ h6{
 }
 
 /*foooter peace sandy's part*/
+
+
+/* MEDIA QUERY */
+@media (min-width: 320px) and (max-width: 767px){
+  .eth-head{
+    font-size: 2rem;
+  }
+}

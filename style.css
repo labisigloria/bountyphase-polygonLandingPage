@@ -815,12 +815,8 @@ p{
 }
 
 /* This is the end of Nkejah Ruth's CSS */
-
-/* The beginning of the ETH accessibility section number 3  */
-
-/* The beginning of the ETH accessibility section number 3  Favour's Part */
+ /* The beginning of the ETH accessibility section number 3  Favour's Part */
 .polygon-makes-access4{
-  padding-top: 40px;
   text-align: center;
   color: rgba(41,41,52,var);
 }
@@ -878,12 +874,7 @@ p{
     justify-content: space-around;
     background-color: #193d45;
     border-radius: 0.75rem;
-    width: 90%;
-    height: 280px;
-    margin-left: 60px;
-  }
-  .green-img{
-    width: 450px;
+    
   }
 
   .smart-contract-box-1{
@@ -897,7 +888,6 @@ p{
     font-size: 2rem;
     font-weight: 700;
     line-height: 1.2;
-    
   }
  
   /* the p tag inside the green img */
@@ -905,48 +895,26 @@ p{
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    
-    
   }
 
   /* the know more button */
   .smart-contract-btn {
     background-color: whitesmoke;
     border: none;
-    border-radius: 20px;
+    border-radius: 10px;
     color: black;
     text-align: center;
     text-decoration: none;
-    font-size: 16px; 
-    padding: 6px 12px;
+    font-size: 20px; 
+    width: 150px;
     cursor: pointer;
-  
-  }
-
-  @media screen and (max-width:600px){
-    .smart-contract-box{
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-      background-color: #193d45;
-      border-radius: 0.75rem;
-      width: 90%;
-      height: 400px;
-      
-    }
-    .smart-contract{
-      font-size: 1.5rem;
-      padding-left: 10px;
-    }
-    .carbon{
-      font-size: 0.8rem;
-    }
-    
   }
   
 /* The end of the ETH accessibility section number 3 Favour's Part */
+  
+
  
-/* The end of the ETH accessibility section number 3  */
+
 .h1-section2{
   margin: 0 auto;
   display: flex;
